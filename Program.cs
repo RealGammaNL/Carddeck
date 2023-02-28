@@ -24,7 +24,16 @@ namespace Carddeck
 
             //Shows them in shuffled order
             Console.WriteLine("Here's a randomly shuffled deck: ");
-            deck1.ShuffleCards();
+            //deck1.ShuffleCards();
+
+            //deck1.ShuffleCards_cas();
+
+            deck1.ShuffleCards_2();
+            deck1.ShowCards();
+
+            Console.WriteLine();
+
+            deck1.ShowCards();
 
             Console.ReadKey();
         }

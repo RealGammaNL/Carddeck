@@ -8,14 +8,9 @@ namespace Carddeck
 {
     public class CardType
     {
-        public List<string> Types { get; set; } = new List<string>();
-        public CardType()
+        public List<string> Types { get; set; } = new List<string>()
         {
-            Types.Add("Hearts");
-            Types.Add("Diamonds");
-            Types.Add("Spades");
-            Types.Add("Clubs");
-
-        }
+            "Hearts", "Diamonds", "Spades", "Clubs"
+        };
     }
 }

@@ -15,7 +15,7 @@ namespace Carddeck
             // Initialising values.
             for (int i = 1; i <= 10; i++)
             {
-                Values.Add($"{i}");
+                Values.Add(i.ToString());
             }
             Values.Add("Jack");
             Values.Add("King");
